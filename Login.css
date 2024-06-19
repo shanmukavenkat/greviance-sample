@@ -198,10 +198,6 @@ nav {
 #upload-btn {
     margin-top: 10px;
 }
-a{
-    text-decoration: none;
-    color: blue;
-}
 .input1{
     content-visibility: visible;
     content:"Forgot Password?";
