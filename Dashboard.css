@@ -284,108 +284,13 @@ body::before {
     }
 }
 
-/* Responsive for mobile devices (max-width: 576px) */
+/* Example styles for mobile responsiveness */
 @media (max-width: 576px) {
-    /* Card Container */
     .card {
-        padding: 10px;
-        margin: 0 auto;
-    }
-
-    /* Profile image */
-    #profile-image {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-    }
-
-    /* Upload button */
-    .labels {
-        width: 120px;
-        padding: 8px;
-        font-size: 12px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    /* Card text adjustments */
-    .card-body h4 {
-        font-size: 14px;
-    }
-
-    .card-body p {
-        font-size: 12px;
-        margin-bottom: 5px;
-    }
-
-    /* Adjust button size */
-    .btn {
-        font-size: 12px;
-        padding: 8px 12px;
+        margin-bottom: 20px; /* Add spacing between cards */
     }
 }
 
-/* For tablets and mid-sized screens (min-width: 577px and max-width: 768px) */
-@media (min-width: 577px) and (max-width: 768px) {
-    /* Profile image size for tablet */
-    #profile-image {
-        width: 120px;
-        height: 120px;
-    }
-
-    /* Upload button */
-    .labels {
-        width: 150px;
-        padding: 10px;
-        font-size: 14px;
-    }
-
-    /* Adjust card text */
-    .card-body h4 {
-        font-size: 16px;
-    }
-
-    .card-body p {
-        font-size: 14px;
-        margin-bottom: 8px;
-    }
-
-    /* Adjust button size */
-    .btn {
-        font-size: 14px;
-        padding: 10px 15px;
-    }
-}
-
-/* Large screens */
-@media (min-width: 769px) {
-    /* Profile image */
-    #profile-image {
-        width: 180px;
-        height: 180px;
-    }
-
-    /* Upload button */
-    .labels {
-        width: 180px;
-        padding: 12px;
-        font-size: 16px;
-    }
-
-    /* Adjust card text */
-    .card-body h4 {
-        font-size: 20px;
-    }
-
-    .card-body p {
-        font-size: 16px;
-    }
-
-    /* Adjust button size */
-    .btn {
-        font-size: 16px;
-        padding: 12px 20px;
-    }
-}
+/* Additional styles can be added here */
 
 
