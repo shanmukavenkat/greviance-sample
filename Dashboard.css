@@ -171,6 +171,28 @@ body::before {
     width: 30px;
     height: 30px;
 }
+/* Target mobile devices */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+/* For tablets and larger screens */
+@media (min-width: 577px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
 
 
 
