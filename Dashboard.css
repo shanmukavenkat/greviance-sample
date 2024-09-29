@@ -171,29 +171,221 @@ body::before {
     width: 30px;
     height: 30px;
 }
-/* Target mobile devices */
+/* General mobile responsiveness */
 @media (max-width: 576px) {
-    h1 {
-        font-size: 15px;
+    /* Navbar */
+    .navbar-brand img {
+        max-width: 30px;
     }
 
-    p {
-        font-size: 8px;
+    /* Sidebar */
+    .nav-pills .nav-link {
+        padding: 0.5rem 0.2rem;
+    }
+    .sidebar img {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Cards */
+    .card img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    /* Dashboard text */
+    h4, .fs-6, p {
+        font-size: 14px;
+    }
+
+    /* Profile section */
+    #profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .labels {
+        width: 100px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    /* Table scaling */
+    table.table {
+        font-size: 12px;
+    }
+    .progress-bar {
+        height: 20px;
+        font-size: 10px;
     }
 }
 
-/* For tablets and larger screens */
-@media (min-width: 577px) {
-    h1 {
-        font-size: 30px;
+/* Tablet responsiveness */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Cards */
+    .card img {
+        width: 150px;
+        height: 150px;
     }
 
-    p {
+    .card-body {
+        padding: 15px;
+    }
+
+    h4, .fs-6, p {
+        font-size: 16px;
+    }
+
+    /* Profile image */
+    #profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .labels {
+        width: 150px;
+        padding: 12px;
+    }
+
+    /* Adjust table size */
+    table.table {
+        font-size: 14px;
+    }
+    .progress-bar {
+        height: 24px;
         font-size: 12px;
     }
 }
 
+/* Additional styles for large screens */
+@media (min-width: 769px) {
+    /* Larger screen scaling */
+    h1 {
+        font-size: 32px;
+    }
 
+    p {
+        font-size: 16px;
+    }
 
+    /* Profile image and buttons */
+    #profile-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .labels {
+        width: 180px;
+        padding: 15px;
+    }
+}
+
+/* Responsive for mobile devices (max-width: 576px) */
+@media (max-width: 576px) {
+    /* Card Container */
+    .card {
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    /* Profile image */
+    #profile-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    /* Upload button */
+    .labels {
+        width: 120px;
+        padding: 8px;
+        font-size: 12px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* Card text adjustments */
+    .card-body h4 {
+        font-size: 14px;
+    }
+
+    .card-body p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    /* Adjust button size */
+    .btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
+
+/* For tablets and mid-sized screens (min-width: 577px and max-width: 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Profile image size for tablet */
+    #profile-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* Upload button */
+    .labels {
+        width: 150px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Adjust card text */
+    .card-body h4 {
+        font-size: 16px;
+    }
+
+    .card-body p {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    /* Adjust button size */
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+
+/* Large screens */
+@media (min-width: 769px) {
+    /* Profile image */
+    #profile-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    /* Upload button */
+    .labels {
+        width: 180px;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    /* Adjust card text */
+    .card-body h4 {
+        font-size: 20px;
+    }
+
+    .card-body p {
+        font-size: 16px;
+    }
+
+    /* Adjust button size */
+    .btn {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+}
 
 
