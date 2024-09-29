@@ -178,7 +178,7 @@ body::before {
     }
 
     p {
-        font-size: 12px;
+        font-size: 8px;
     }
 }
 
@@ -189,7 +189,7 @@ body::before {
     }
 
     p {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
