@@ -154,6 +154,24 @@ body::before {
     margin: 10px;
     border-radius: 50%10%50%10%/10%50%10%50%;
 }
+/* Navbar styles */
+.navbar-brand img {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar img {
+    width: 30px;
+    height: 30px;
+}
+
 
 
 
