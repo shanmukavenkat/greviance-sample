@@ -39,7 +39,7 @@
 <div class="container ">
     <div class="row container_margin ">
         <div class="d-flex flex-row justify-content-center ">
-            <div class="d-none d-sm-none d-md-none d-lg-block d-xl-block order-2">
+            <div class="d-none m-0 p-0 d-sm-none d-md-none d-lg-block d-xl-block order-2">
                 <img src="Login-pan.svg" alt="reload" class=" pt-3 user_img">
             </div>
             <div class="d-none d-sm-none d-md-none d-xl-block d-lg-block col-md-6 col-xl-6 col-xl-6 pt-3 order-1">
@@ -73,23 +73,22 @@
         </div>
 
         <!---another form-->
-        <div class="row mt-3 ">
-            <div class="d-block  d-sm-block d-md-block   d-xl-none d-lg-none col-10 col-md-10 col-sm-10 ">
-                <div class="card  pl-5 shadow-lg h-auto ">
+        <div class="row mt-3">
+            <div class="d-block d-sm-block d-md-block d-xl-none d-lg-none col-10 col-md-10 col-sm-10">
+                <div class="card pl-5 shadow-lg h-auto">
+                    <img src="Login-pan.svg" alt="reload" class="image_card mt-2">
+                    <div class="texts d-flex flex-column justify-content-center">
+                        <h4>Login</h4>
+                        <p>Please Enter Valid Email address<br>and password</p>
 
-                    <img src="Login-pan.svg" alt="reload" class="image_card mt-2 ">
-                    <div class="texts d-flex flex-column justify-content-center" >
-                        <h4 class="pt-3">Login</h4>
-                        <p>Please Enter Valid Email address<br> and password</p>
-
-                        <form>
-                            <div class="texts d-flex flex-column justify-content-center"  >
-                                <div class="form-floating mb-3 ">
-                                    <input type="email" class="form-control input_class" id="Input" placeholder="name@vvit.net">
+                        <form class="m-0 p-0">
+                            <div class="texts d-flex flex-column justify-content-center">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control input_class" id="Input" placeholder="name@vvit.net" required>
                                     <label for="Input">Email address</label>
                                 </div>
                                 <div class="form-floating">
-                                    <input type="password" class="form-control input_class" id="Password" placeholder="Password">
+                                    <input type="password" class="form-control input_class" id="Password" placeholder="Password" required>
                                     <label for="Password">Password</label>
                                 </div>
                             </div>
@@ -97,23 +96,16 @@
                                 <a href="ForgotPassword.html">Forgot Password?</a>
                                 <p>If you are new <a href="SignUp.html">Sign Up</a></p>
                             </div>
-                            <button class="btn btn-primary mt-2" href="index.html" type="submit"> <a href="index.html">Login </a></button>
-
                         </form>
-
-
-
-
+                        <button class="btn btn-primary mt-2" onclick="location.href='index.html'">Login</button>
                     </div>
                 </div>
-
             </div>
         </div>
-    </div>
+
 
 </div>
-
-
+</div>
 
 </body>
 </html>
