@@ -1,25 +1,31 @@
-input{
-    border: none;
-    inline:none;
-    outline-color: #F6FBFF;
-}
-label{
-    border-radius:20px;
-    border: 1px solid #ccc;
-    outline-color: #ffecd2;
-
-}
-.card{
-    width: auto;
-}
-h1{
+body {
+    overflow-x: hidden;
     font-family: "Lucida Bright", Georgia, serif;
+}
+
+h1 {
     font-size: 40px;
     font-weight: bold;
 }
-.card1{
-    width: 600px;
+
+.form-control {
+    border-radius: 20px;
 }
-body {
-    overflow-x: hidden;
+
+label {
+    color: #555;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.button {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #F69074;
+    border-color: #F69074;
 }
